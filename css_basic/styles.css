@@ -1,1 +1,33 @@
+/* Make body a flex container in column direction */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensure the body takes the full height of the viewport */
+  margin: 0;
+}
+
+/* Make main a flex container in row direction */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto; /* Let it grow to fill available space */
+}
+
+/* Article takes 2/3 of space */
+article {
+  flex: 2;
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  padding: 1rem;
+  border-right: 1px solid #ccc; /* Optional: for separation */
+}
+
+/* Aside takes 1/3 of space */
+aside {
+  flex: 1;
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 1rem;
+}
+
+/* Optional styles for header and footer */
+he
 
