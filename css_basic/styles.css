@@ -64,6 +64,60 @@ footer {
   padding: 1rem;
   text-align: center;
 }
+/* Background and text colors */
+body {
+  background-color: #f5f7fa;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #004d99;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+/* Logo styling (already partly defined in base.css) */
+.logo {
+  font-size: 2rem;
+}
+
+/* Article styling (you can do anything here!) */
+article {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Aside styling */
+aside {
+  background-color: #e6f0ff;
+  border-left: 2px solid #cce;
+}
+
+/* Footer */
+footer {
+  background-color: #004d99;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Links, buttons, etc. */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 
 
 /* Optional styles for header and footer */
